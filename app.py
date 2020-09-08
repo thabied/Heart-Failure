@@ -34,8 +34,8 @@ def run():
         age = st.number_input('Age', min_value=10, max_value=150, value=45)
         time = st.number_input('Follow-up period (days)', min_value=1, max_value=100, value=5)
         serum_creatinine = st.number_input('Level of serum creatinine in the blood (mg/dL)', min_value=0, max_value=50, value=2)
-        serum_sodium = st.slider('Level of serum sodium in the blood (mEq/L)', min_value=-0, max_value=500, value=150, step=1)
-        ejection_fraction = st.slider('Percentage of blood leaving the heart at each contraction (percentage)', min_value=1, max_value=100, value=20, step=1)
+        serum_sodium = st.input('Level of serum sodium in the blood (mEq/L)', min_value=-0, max_value=500, value=150)
+        ejection_fraction = st.input('Percentage of blood leaving the heart at each contraction (percentage)', min_value=1, max_value=100, value=20)
 
         output=""
 
