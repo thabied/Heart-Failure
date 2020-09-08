@@ -21,6 +21,7 @@ def run():
     ("Single Patient", "Multiple"))
 
     st.sidebar.info('Using a Machine Learning model to predict Heart Failure in patients')
+    st.sidebar.info('These results are not meant to be treated as a medical diagnosis but simply a research tool of experimentation')
     st.sidebar.info('Please refer to the GitHub repo to view the Weather Mapping for the "Weather Condition" input')
     st.sidebar.success('https://tmplayground.com')
     st.sidebar.success('https://github.com/thabied')
