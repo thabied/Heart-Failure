@@ -12,7 +12,7 @@ def predict(model, input_df):
 def run():
 
     from PIL import Image
-    image = Image.open('header.jpeg')
+    image = Image.open('header.jpg')
 
     st.image(image,use_column_width=True)
 
